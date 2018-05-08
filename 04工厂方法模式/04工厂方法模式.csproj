@@ -42,6 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EventFactory.cs" />
+    <Compile Include="EventLog.cs" />
+    <Compile Include="FileFactory.cs" />
+    <Compile Include="FileLog.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="ILogFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
