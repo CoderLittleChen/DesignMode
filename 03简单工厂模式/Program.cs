@@ -11,7 +11,7 @@ namespace _03简单工厂模式
         static void Main(string[] args)
         {
             //简单工厂 可以理解为生产一个对象的一个类  
-            //缺点是 当新增衣服类型的时候， 工厂类中的代码也需要改
+            //缺点是   如果有新增需求  代码需要频繁的改动
             ICoat coat = SimpleFactory.GetCoat("business");
             coat.GetYourCoat();
             Console.ReadKey();

@@ -18,7 +18,7 @@ namespace _03简单工厂模式
             else
             {
                 coat = new FashionCoat();
-            }
+            }   
             return coat;
         }
     }
