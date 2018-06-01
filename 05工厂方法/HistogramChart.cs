@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _05工厂方法
+namespace _05简单工厂
 {
     public class HistogramChart : IChartable
     {

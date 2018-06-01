@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04工厂方法模式", "04�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01单例模式", "01单例模式\01单例模式.csproj", "{ACBA0A7E-190D-4278-AE69-EE3515A05283}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05工厂方法", "05工厂方法\05工厂方法.csproj", "{490D12C3-F1A3-429A-B847-659E6CFF60BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05简单工厂", "05工厂方法\05简单工厂.csproj", "{490D12C3-F1A3-429A-B847-659E6CFF60BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

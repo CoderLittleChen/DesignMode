@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _05工厂方法
+namespace _05简单工厂
 {
     class Program
     {
@@ -14,7 +14,7 @@ namespace _05工厂方法
             //可以从读取配置文件来获取要创建的图表
             string chartType = ConfigurationManager.AppSettings["chartType"].ToString();
             if (string.IsNullOrEmpty(chartType))
-            {
+            { 
                 return;
             }
 
