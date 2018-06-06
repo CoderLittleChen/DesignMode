@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace _04工厂方法模式
 {
-    public interface ILogFactory
+    interface ILoggerFactory
     {
-        ILog Create();
+        ILogger CreateLogger();
     }
 }

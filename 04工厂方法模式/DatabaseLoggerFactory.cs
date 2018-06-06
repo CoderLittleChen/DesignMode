@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace _04工厂方法模式
 {
-    public class FileLog : ILog
+    public class DatabaseLoggerFactory : ILoggerFactory
     {
-        public void Write()
+        public ILogger CreateLogger()
         {
-            Console.WriteLine("File Log  Success");
+            ILogger logger = new DatabaseLogger();
+            return logger;
         }
     }
 }

@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace _04工厂方法模式
 {
-    public class EventLog:ILog
+    public interface ILogger
     {
-        public void Write()
-        {
-            Console.WriteLine("Event  Log  Success");
-        }
+        void WriteLog();
     }
 }

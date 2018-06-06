@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace _04工厂方法模式
 {
-    public class FileFactory : ILogFactory
+    public class FileLogger : ILogger
     {
-        public ILog Create()
+        public void WriteLog()
         {
-            return new FileLog();
+            Console.WriteLine("文件日志记录");
         }
+
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B3EE2D2B-E7E1-45FA-ADDC-7EDA59E8DFA8}</ProjectGuid>
+    <ProjectGuid>{8B792BF2-A44A-4D69-856A-9FA1AAE49654}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_04工厂方法模式</RootNamespace>
-    <AssemblyName>04工厂方法模式</AssemblyName>
+    <RootNamespace>_06原型模式</RootNamespace>
+    <AssemblyName>06原型模式</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,14 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DatabaseLogger.cs" />
-    <Compile Include="DatabaseLoggerFactory.cs" />
-    <Compile Include="FileLogger.cs" />
-    <Compile Include="FileLoggerFactory.cs" />
-    <Compile Include="ILogger.cs" />
-    <Compile Include="ILoggerFactory.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WeeklyLog.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

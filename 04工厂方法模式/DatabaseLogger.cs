@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace _04工厂方法模式
 {
-    public interface ILog
+    public class DatabaseLogger : ILogger
     {
-        void Write();
+        public void WriteLog()
+        {
+            Console.WriteLine("数据库日志记录");
+        }
     }
 }
