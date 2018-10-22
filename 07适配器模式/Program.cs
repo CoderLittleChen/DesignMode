@@ -10,9 +10,7 @@ namespace _07适配器模式
     {
         static void Main(string[] args)
         {
-            //你说爱要怎么说出口  到底是多
             //IScoreOperation  operation=
-
         }
     }
 }
