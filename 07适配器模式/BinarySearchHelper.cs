@@ -8,6 +8,7 @@ namespace _07适配器模式
 {
     public class BinarySearchHelper
     {
+        //二分查找的具体实现方式  
         public int BinarySearch(int[] array, int key)
         {
             int low = 0;

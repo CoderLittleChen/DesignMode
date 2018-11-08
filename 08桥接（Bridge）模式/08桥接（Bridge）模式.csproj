@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C7C8D400-3B40-4757-8B35-9D63D2EC44A0}</ProjectGuid>
+    <ProjectGuid>{0B07BC0B-D061-4898-BAB3-EA59B645E87A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_07适配器模式</RootNamespace>
-    <AssemblyName>07适配器模式</AssemblyName>
+    <RootNamespace>_08桥接_Bridge_模式</RootNamespace>
+    <AssemblyName>08桥接（Bridge）模式</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,21 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppConfigHelper.cs" />
-    <Compile Include="BinarySearchHelper.cs" />
-    <Compile Include="IScoreOperation.cs" />
-    <Compile Include="OperationAdapter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuickSortHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config">
-      <SubType>Designer</SubType>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="关于适配器模式的说明.txt" />
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

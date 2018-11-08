@@ -8,9 +8,11 @@ namespace _07适配器模式
 {
     public class OperationAdapter : IScoreOperation
     {
+        //这个类是适配者模式的关键          
+
         private QuickSortHelper sortTarget;
         private BinarySearchHelper searchTarget;
-        public OperationAdapter()
+        public OperationAdapter()  
         {
             sortTarget = new QuickSortHelper();
             searchTarget = new BinarySearchHelper();
